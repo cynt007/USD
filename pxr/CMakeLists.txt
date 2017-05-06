@@ -1,13 +1,6 @@
 add_subdirectory(base)
 add_subdirectory(usd)
 
-if (${PXR_BUILD_IMAGING})
-    add_subdirectory(imaging)
-    if (${PXR_BUILD_USD_IMAGING})
-        add_subdirectory(usdImaging)
-    endif()
-endif()
-
 pxr_setup_python()
 pxr_setup_plugins()
 

@@ -29,8 +29,6 @@
 
 #include "pxr/usd/usd/prim.h"
 #include "pxr/usd/usd/stage.h"
-#include "pxr/usd/usdGeom/metrics.h"
-#include "pxr/usd/usdGeom/tokens.h"
 
 #include "pxr/base/plug/plugin.h"
 #include "pxr/base/plug/registry.h"
